@@ -3,7 +3,3 @@ spring:
     name: beanstalk-demo
   thymeleaf:
     cache: false
-  config:
-    import: file:.env[.properties]
-server:
-  port: ${PORT}
