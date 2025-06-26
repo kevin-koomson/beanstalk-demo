@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: beanstalk-demo
+  config:
+    import: file:.env[.properties]
+  thymeleaf:
+    cache: false
+server:
+  port: ${PORT}
